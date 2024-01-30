@@ -1,0 +1,28 @@
+/* navbar.css */
+.navbar-nav {
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.nav-link {
+    font-size: 1.75rem; /* Increase font size */
+}
+.navbar-custom {
+    background-color: #373636; /* Custom background color */
+    color: white; /* Custom text color */
+    padding-bottom: 500px;
+}
+.btn-outline-primary {
+    margin-left: auto; 
+    
+}
+.ntn-outline-secondary{
+    margin-right:auto;
+}
+.nav-item{
+    margin-left: 150px;
+}
+.nav-link2{
+    margin-left:auto;
+    font-size: 1.75rem;
+}

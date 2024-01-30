@@ -1,0 +1,62 @@
+/* CustomerReviews.css */
+.customer-reviews {
+    text-align: center;
+    
+    padding-bottom: 100px;
+    padding-top:50px;
+    background-color: black;
+  }
+  .customer-reviews h2{
+    color:aliceblue;
+    font-size: 3.0em;
+  }
+  .review-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top:50px;
+  }
+  
+  .review-card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    margin: 10px;
+    max-width: 300px;
+    width: 100%;
+    padding: 15px;
+  }
+  
+  .review-icon {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .review-icon.male {
+    color: blue;
+  }
+  
+  .review-icon.female {
+    color: pink;
+  }
+  
+  .review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .star-rating {
+    display: flex;
+  }
+  
+  .star-icon {
+    color: #f2c100;
+  }
+  
+  .review-text {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  

@@ -1,0 +1,69 @@
+.faq-container {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    background-color: #033060;
+  }
+  .faq-container h2{
+    color:aliceblue;
+    font-size: 3em;
+  }
+  
+  .faq-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:50px;
+
+  }
+  
+  .faq-card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    margin: 10px;
+    max-width: 1000px;
+    width: 100%;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+  
+  .faq-card.open {
+    border-color: #007bff;
+  }
+  
+  .faq-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+  }
+  
+  .faq-question {
+    margin: 0;
+  }
+  
+  
+  
+  .faq-card-content {
+    display: none;
+    padding: 0 15px 15px;
+  }
+  
+  .faq-card-content.open {
+    display: block;
+  }
+  .faq-card-content {
+    display: none;
+    padding: 0 15px 15px;
+    font-size: 1.30em; /* Increase font size as needed */
+    color: #333; /* Customize text color */
+    font-weight: 400; /* Customize font weight */
+    line-height: 1.5; /* Customize line height */
+  }
+  
+  .faq-card-content.open {
+    display: block;
+  }
+  

@@ -1,0 +1,20 @@
+/* HeroImage.css */
+.hero-image {
+    position: relative;
+    background-image: url('../Images/lambo.jpg'); /* Set the URL of your hero image */
+    background-size: cover;
+    background-position: center;
+    height: 700px; /* Adjust the height as needed */
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-text {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for text */
+    padding: 20px;
+    border-radius: 5px;
+  }
+  

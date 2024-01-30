@@ -1,0 +1,50 @@
+.repair-services-section {
+    text-align: center;
+    padding: 40px;
+    background-color: black;
+    padding-bottom: 100px;
+  
+  }
+  
+  .services-heading {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+  }
+  
+  .services-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .service-shape {
+    border-radius: 50%; /* Circle shape */
+    width: 300px; /* Increased width */
+    height: 300px; /* Increased height */
+    border: 1px solid #ddd;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+  }
+  
+  .service-shape:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(255, 253, 253, 0.3);
+  }
+  
+  .service-shape h3 {
+    margin: 15px 0;
+    color: aliceblue;
+  }
+  
+  .service-shape p {
+    font-size: 1em;
+    padding: 0 10px;
+    color: aliceblue;
+  }
+  

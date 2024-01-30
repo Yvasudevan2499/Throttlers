@@ -1,0 +1,46 @@
+.promotions-container {
+  position: relative;
+  max-width: 2000px;
+  height: 700px; /* Adjust as needed */
+  margin: auto;
+  overflow: hidden;
+  background-color: #73b1ee;
+}
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.slide.active {
+  opacity: 1;
+}
+
+.deal-text {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1.2em;
+}
+.promotions-heading {
+  font-size: 3em; /* Larger font size for the heading */
+  margin-bottom: 20px;
+  color: aliceblue; /* Adjust color as needed */
+}
+
+.promotions-section {
+  text-align: center;
+  padding: 20px;
+  background-color: #000000; 
+  padding-bottom: 100px;/* Optional: Background color for the entire section */
+}

@@ -1,0 +1,51 @@
+.appointment-booking-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #0c0c0c; /* White background for the card */
+    border: 1px solid #f0eded; /* Border for the card */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 30px; /* Rounded corners */
+    
+    
+  }
+  
+  .appointment-booking-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+  }
+  
+  input, select, textarea {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid rgb(212, 223, 233);
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: rgb(107, 182, 248); /* Light grey background */
+    color: rgb(247, 245, 245); /* White text */
+    border: none;
+    
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  button:hover {
+    background-color: #5b5a5a; /* Slightly darker grey on hover */
+  }
+  .appointment-booking-container h2{
+    color:aliceblue;
+   
+  }
+  .appointment {
+    background-color: #010101;
+    padding-top:0px;
+    padding-bottom: 100px;
+  }
+ 
